@@ -1,0 +1,32 @@
+.homeHeading {
+  text-align: center;
+}
+
+.introduction {
+  width: 70%;
+  margin: auto;
+}
+
+.introduction p {
+  font-size: 1.5em;
+}
+
+.introduction p a {
+  background-color: transparent;
+  color: white;
+}
+
+.introduction p a:hover {
+  background-color: white;
+  color: blueviolet;
+}
+
+@media (max-width: 600px) {
+  .introduction {
+    width: 100%;
+    margin: auto;
+  }
+  .introduction p {
+    padding: 0 1em;
+  }
+}

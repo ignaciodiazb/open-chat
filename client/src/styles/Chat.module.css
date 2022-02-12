@@ -1,0 +1,120 @@
+.heading {
+  text-align: center;
+}
+
+.chatContainer {
+  display: flex;
+  flex-direction: row;
+  height: 30em;
+  border: 1px solid white;
+}
+
+.connectedUsers {
+  flex: 1;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.connectedUsers h2 {
+  text-align: center;
+}
+
+.connectedUsersList {
+  padding: 0.5em 2em;
+  list-style: none;
+}
+
+.user {
+  font-size: 1.3em;
+}
+
+.chatBoard {
+  border-left: 1px solid white;
+  flex: 1;
+  position: relative;
+  background-color: indigo;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.messagesContainer {
+  max-height: 90%;
+  overflow: auto;
+}
+
+.messagesContainer p {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.messagesContainer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.messagesContainer ul li {
+  padding: 0.5em 1em;
+  font-size: 1.3em;
+}
+
+.messagesContainer ul li:nth-child(odd) {
+  background-color: darkmagenta;
+}
+
+.formContainer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.input {
+  flex: 10;
+}
+
+.button {
+  flex: 2;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.connectedUsersPrivate {
+  flex: 1;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.connectedUsersPrivate h2 {
+  text-align: center;
+}
+
+.connectedUsersPrivate ul {
+  list-style: none;
+  padding: 0;
+}
+
+.connectedUsersPrivate ul li {
+  font-size: 1.3em;
+  padding: 0.5em 2em;
+}
+
+.connectedUsersPrivate ul li:hover {
+  cursor: pointer;
+}
+
+.userSelected {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}

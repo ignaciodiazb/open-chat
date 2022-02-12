@@ -1,0 +1,66 @@
+.heading {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.labelAndInput {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  font-size: 1.3em;
+  margin-right: 1em;
+}
+
+.input {
+  font-size: 1em;
+}
+
+.connectBtn {
+  width: fit-content;
+  margin: auto;
+  margin-top: 1em;
+  font-size: 1.5em;
+  font-family: monospace;
+  background-color: transparent;
+  border: transparent;
+  color: white;
+  text-decoration: underline;
+}
+
+.connectBtn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: blueviolet;
+}
+
+.error {
+  text-align: center;
+  margin: 1em 0;
+  border-radius: 5px;
+  font-size: 1.3em;
+}
+
+.userInfo {
+  border: 1px solid white;
+  width: fit-content;
+  margin: auto;
+  padding: 0.5em 1em;
+}
+
+.userInfo h2 {
+  margin: 0.5em 0;
+  text-align: center;
+}
+
+.userInfo p {
+  margin: 0.2em 1em;
+  font-size: 1.3em;
+}
